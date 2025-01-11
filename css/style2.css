@@ -116,7 +116,7 @@ nav ul li a:hover {
 .home {
     position: fixed;
     left: 10px;  
-    bottom: 10px; 
+    bottom: 15px; 
     
     padding: 1px;
     font-size: 24px;
@@ -140,7 +140,7 @@ nav ul li a:hover {
 
 .back-to-top {
     position: fixed;
-    right: -300px;  
+    right: -400px;  
     bottom: 12px; 
     padding: 15px;
     font-size: 24px;
