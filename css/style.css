@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    color: Black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 44px;
+	color: Black;
+}
+.slide {
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 900px;
+	background: linear-gradient(to right, #eacda3, #d6ae7b);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.slide p {
+    font-size: 20px;
+    margin-bottom: 30px;
+	text-align: justify;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    
+    color: black;
+}
+nav {
+    margin: 20px 0;
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    width: 400px; 
+    margin: 0 auto; 
+}
+
+nav ul li {
+    display: block; 
+    margin: 40px 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #916a3a;
+    padding: 40px 40px;
+    background: linear-gradient(to right, #d6ae7b, #eacda3);
+    border-radius: 30px;
+    display: block; 
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+.image-container {
+    position: relative; 
+    width: 100%;
+    max-width: 2800px; 
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+}
+
+.image-overlay {
+    position: absolute; 
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.home {
+    position: fixed;
+    left: 100px;  
+    bottom: 50px; 
+    color: white;
+    padding: 1px;
+    font-size: 24px;
+    border-radius: 0%;
+    text-decoration: none;
+    display: block; 
+    opacity: 0.8;  
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+
+.home:hover {
+    
+    opacity: 100;    
+}
+.home img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px; 
+    bottom: 20px; 
+    background-color: red;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: block; 
+    opacity: 0.8;  
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+
+.back-to-top:hover {
+    background-color: #ff7e5f; 
+    opacity: 1; 
+    transform: scale(1.1);  
+}
